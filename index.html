@@ -24,59 +24,52 @@
 
   <!--***************---------Search---------********************-->
 <section class="search">
-  <header class="searchHeader">    
+  <header class="searchHeader">
     <h1 class="searchHeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
-      <p class="searchHeaderSubtitle">En plein centre de ville ou en pleine nature</p>
-  </header>    
-<!--*****************"Search"Form/buttons/icons**********************-->
+    <p class="searchHeaderSubtitle">En plein centre de ville ou en pleine nature</p>
+  </header>
   <form class="searchForm" action="proceedFrom.html" method="GET">
-   <span class="searchFormIcons">
-     <i class="fas fa-map-marker-alt searchFormIconsIcon"></i>
-   </span>
-   <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
-   <button class="searchFormSubmitinput">
-    <span class="searchFormSubmitinputText">Rechercher</span>
-     <i class="searchFormSubmitinputIcon fas fa-search"></i>
-   </button>
+    <span class="searchFormWrapicon">
+      <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+    </span>
+    <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+    <button class="searchFormSubmitinput">
+      <span class="searchFormSubmitinputText">Rechercher</span>
+      <i class="searchFormSubmitinputIcon fas fa-search"></i>
+    </button>
   </form>
-  <!--*****************"Search-Form/buttons/Icons-End**********************-->
-
-  <!--*****************"Search-Filters/Title/Icons**********************-->
   <div class="searchFilters">
     <h2 class="searchFiltersTitle">Filtres</h2>
     <div class="searchFiltersFilter">
-      <div class="Icons">
-        <i class="fas fa-money-bill-wave IconsIcon"></i>
+      <div class="searchFiltersFilterWrapicon">
+        <i class="fas fa-money-bill-wave searchFiltersFilterWrapiconIcon"></i>
       </div>
       <span class="searchFiltersFilterTitle">Économique</span>
     </div>
     <div class="searchFiltersFilter">
-      <div class="Icons">
-        <i class="fas fa-child searchFiltersFilterIconsIcon" ></i>
+      <div class="searchFiltersFilterWrapicon">
+        <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
       </div>
       <span class="searchFiltersFilterTitle">Familial</span>
     </div>
     <div class="searchFiltersFilter">
-      <div class="searchFiltersFilterIcons">
-        <i class="fas fa-heart searchFiltersFilterIconsIcon"></i>
+      <div class="searchFiltersFilterWrapicon">
+        <i class="fas fa-heart searchFiltersFilterWrapiconIcon"></i>
       </div>
       <span class="searchFiltersFilterTitle">Romantique</span>
     </div>
     <div class="searchFiltersFilter">
-      <div class="searchFiltersFilterIcons">
-        <i class="fas fa-dog searchFiltersFilterIconsIcon"></i>
+      <div class="searchFiltersFilterWrapicon">
+        <i class="fas fa-dog searchFiltersFilterWrapiconIcon"></i>
       </div>
       <span class="searchFiltersFilterTitle">Animaux autorisés</span>
     </div>
   </div>
- <!--*****************"Search-Filters/Title/Icons-END**********************-->
- 
- <!--*****************"Search-Info**********************-->
-   <div class="searchInfo">
-    <div class="searchInfoIcon"><i class="fas fa-info searchResultIconsIcon"></i></div>
-      <p class="searchInfoText">Plus de 500 logements sont disponibles dans cette ville</p>
-   </div>
- </section>
+  <div class="searchResult">
+    <div class="searchResultWrapicon"><i class="fas fa-info searchResultWrapiconIcon"></i></div>
+    <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+  </div>
+</section>
 <!--*****************Search-END**********************-->
 
 <!--*****************Hosting**********************-->
@@ -87,18 +80,18 @@
       <article class="hostingMainHotel">
         <a href="#">
           <figure class="hostingMainHotelFigure">
-            <img class="hostingMainHotelImg" src="img/auberge_la_cannebiere.jpg" alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville.">
+            <img class="hostingMainHotelFigureImg" src="img/auberge_la_cannebiere.jpg" alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville.">
             <figcaption class="hostingMainHotelFigCaption">
-              <h3 class="hostingMainHotelFiCaptionTitle">Auberge la Cannebière</h3>
+              <h3 class="hostingMainHotelFigCaptionTitle">Auberge la Cannebière</h3>
             </figcaption>
           </figure>
           <p class="hostingMainHotelDesc">Nuit à partir de <strong class="hostingMainHotelDescPrice">25€</strong></p>
-          <div class="hostingMainHotelGrade">
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+          <div class="hostingMainHotelFeedback">
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
           </div>
         </a>
       </article>
@@ -112,11 +105,11 @@
           </figure>
           <p class="hostingMainHotelDesc">Nuit à partir de <strong class="hostingMainHotelDescPrice">52€</strong></p>
           <div class="hostingMainHotelFeedback">
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="false"></i>
           </div>
         </a>
       </article>
@@ -130,11 +123,11 @@
           </figure>
           <p class="hostingMainHotelDesc">Nuit à partir de <strong class="hostingMainHotelDescPrice">76€</strong></p>
           <div class="hostingMainHotelFeedback">
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
           </div>
         </a>
       </article>
@@ -148,11 +141,11 @@
           </figure>
           <p class="hostingMainHotelDesc">Nuit à partir de <strong class="hostingMainHotelDescPrice">46€</strong></p>
           <div class="hostingMainHotelFeedback">
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="false"></i>
           </div>
         </a>
       </article>
@@ -166,11 +159,11 @@
           </figure>
           <p class="hostingMainHotelDesc">Nuit à partir de <strong class="hostingMainHotelDescPrice">23€</strong></p>
           <div class="hostingMainHotelFeedback">
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="false"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="false"></i>
           </div>
         </a>
       </article>
@@ -184,11 +177,11 @@
           </figure>
           <p class="hostingMainHotelDesc">Nuit à partir de <strong class="hostingMainHotelDescPrice">96€</strong></p>
           <div class="hostingMainHotelFeedback">
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
-            <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="true"></i>
+            <i class="fas fa-star hostingMainHotelFeedbackStar" data-active="false"></i>
           </div>
         </a>
       </article>
@@ -228,11 +221,11 @@
             <p class="hostingMainHotelDesc">Nuit à partir de <strong class="hostingMainHotelDescPrice">71€</strong></p>
             <div class="hostingPopularHotelWhitespace"></div>
             <div class="hostingMainHotelFeedback">
-              <i class="fas fa-star hostingMainCardGradeIcon"></i>
-              <i class="fas fa-star hostingMainCardGradeIcon"></i>
-              <i class="fas fa-star hostingMainCardGradeIcon"></i>
-              <i class="fas fa-star hostingMainCardGradeIcon"></i>
-              <i class="fas fa-star hostingMainCardGradeIcon"></i>
+              <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+              <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+              <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+              <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
+              <i class="fas fa-star hostingMainHotelFeedbackStar"></i>
             </div>
           </div>
         </a>
@@ -303,11 +296,11 @@
         </div>
         <h3 class="activityTitle">Notre-Dame-de-la-Garde</h3>
       </a>
-      <a href="#" class="activityLink activityLink5
+      <a href="#" class="activityLink activityLink5">
           <img 
-            class="activityCardWrapimgImg"
+            class="activityHotelImgimg1"
             src="img/île_du_frioul.jpg" 
-            alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan" 
+            alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan"
           >
         </div>
         <h3 class="activityTitle">Île du Frioul</h3>
