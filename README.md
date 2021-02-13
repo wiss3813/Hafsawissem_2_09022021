@@ -13,4 +13,7 @@ Intégrer les deux maquettes fournis par le designer et réaliser en autonomie l
 Les couleurs de la charte :
 Bleu : #0065FC ✓ Bleu clair : #DEEBFF ✓ Gris : #F2F2F2 ✓ Les icons disponibles sur le site Font Awesome.
 
-Remarque: Dans le dossier img se trouve toutes les images utilisés pour le projet
++Présentation powerpoint,
+
+dans le dossier img se trouve toutes les images utilisés pour le projet,
+
