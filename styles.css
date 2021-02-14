@@ -95,10 +95,14 @@ a {
   padding: 0 2rem;
   box-sizing: border-box;
 }
-/*******************-----END-MAIN------*****************/
 
 
 /*******************-----SEARCH------*****************/
+.search {
+  padding: 1rem;
+  background-color:hsl(0, 0%, 88%);
+  border-radius: 1.8rem;
+}
 .searchHeaderTitle {
   margin-bottom: 0.5rem;
 }
@@ -111,7 +115,6 @@ a {
   overflow: auto;
 }
 .searchFormWrapicon {
-  background-color: #F2F2F2;
   padding: 1rem 1.25rem;
   border-radius: 1rem 0 0 1rem;
   text-align: center;
@@ -161,7 +164,7 @@ a {
   display: flex;
   align-items: center;
   margin-right: 2rem;
-  border: 2px solid #d9d9d9;
+  border: 2px solid #b1b0b0;
   border-radius: 2rem;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -489,8 +492,7 @@ a {
 /******************-----FOOTER----****************/
 
 .footer {
-  background-color: #F2F2F2;
-  width: 100%;
+  padding:1rem
 }
 .footerColumnwrapper {
   display: flex;
@@ -499,6 +501,8 @@ a {
   margin: auto;
   padding: 0 2rem;
   box-sizing: border-box;
+  background-color:hsl(0, 5%, 88%);
+  border: 0.2px solid whitesmoke;;
 }
 .footerColumnwrapperColumn {
   width: 30%;
