@@ -50,7 +50,7 @@ a {
 
 @media screen and (min-width: 601px) {
   .header {
-    grid-template-columns: auto 1fr auto auto;
+    grid-template-columns: 2fr 2fr;
     grid-template-areas: "logo . navbar button";
   }
   .headerNavLink[data-active=true] {
@@ -90,7 +90,8 @@ a {
 
 /*******************-----MAIN------*****************/
 .main {
-  max-width: 1119px;
+  max-width: 1440px;
+  min-width: 301px;
   margin: auto;
   padding: 1rem;
   box-sizing: border-box;
@@ -323,6 +324,7 @@ a {
   font-weight: bold;
 }
 .hostingPopular {
+  min-width: 300px;
   display: grid;
   row-gap: 2rem;
   align-items: start;
