@@ -90,18 +90,18 @@ a {
 
 /*******************-----MAIN------*****************/
 .main {
-  max-width: 1440px;
+  max-width: 1119px;
   margin: auto;
-  padding: 0 2rem;
+  padding: 1rem;
   box-sizing: border-box;
 }
 
 
 /*******************-----SEARCH------*****************/
 .search {
-  padding: 1rem;
+  padding: 0.2rem;
   background-color:hsl(0, 0%, 88%);
-  border-radius: 1.8rem;
+  border-radius: 0.2rem;
 }
 .searchHeaderTitle {
   margin-bottom: 0.5rem;
@@ -175,7 +175,7 @@ a {
   margin-right: 0;
 }
 .searchFiltersFilter:hover {
-  background-color: #f3f8ff;
+  background-color: #DEEBFF;
   transform: scale(1.015);
 }
 .searchFiltersFilterWrapicon {
@@ -502,7 +502,8 @@ a {
   padding: 0 2rem;
   box-sizing: border-box;
   background-color:hsl(0, 5%, 88%);
-  border: 0.2px solid whitesmoke;;
+  border: 0.2px solid whitesmoke;
+  border-radius: 0.2rem;
 }
 .footerColumnwrapperColumn {
   width: 30%;
