@@ -50,7 +50,7 @@ a {
 
 @media screen and (min-width: 601px) {
   .header {
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo . navbar button";
   }
   .headerNavLink[data-active=true] {
@@ -91,19 +91,14 @@ a {
 /*******************-----MAIN------*****************/
 .main {
   max-width: 1440px;
-  min-width: 301px;
   margin: auto;
-  padding: 1rem;
+  padding: 0 2rem;
   box-sizing: border-box;
 }
+/*******************-----END-MAIN------*****************/
 
 
 /*******************-----SEARCH------*****************/
-.search {
-  padding: 0.2rem;
-  background-color:hsl(0, 0%, 88%);
-  border-radius: 0.2rem;
-}
 .searchHeaderTitle {
   margin-bottom: 0.5rem;
 }
@@ -116,6 +111,7 @@ a {
   overflow: auto;
 }
 .searchFormWrapicon {
+  background-color: #F2F2F2;
   padding: 1rem 1.25rem;
   border-radius: 1rem 0 0 1rem;
   text-align: center;
@@ -165,7 +161,7 @@ a {
   display: flex;
   align-items: center;
   margin-right: 2rem;
-  border: 2px solid #b1b0b0;
+  border: 2px solid #d9d9d9;
   border-radius: 2rem;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -176,7 +172,7 @@ a {
   margin-right: 0;
 }
 .searchFiltersFilter:hover {
-  background-color: #DEEBFF;
+  background-color: #f3f8ff;
   transform: scale(1.015);
 }
 .searchFiltersFilterWrapicon {
@@ -255,8 +251,7 @@ a {
 
 
 /*******************-----HOSTING------*****************/
-}
-.hostingWrapper, .hostingPopular, .hostingMain {
+}.hostingPopular, .hostingMain {
   background-color: #F2F2F2;
   border-radius: 1.5rem;
   padding: 2rem;
@@ -324,7 +319,6 @@ a {
   font-weight: bold;
 }
 .hostingPopular {
-  min-width: 300px;
   display: grid;
   row-gap: 2rem;
   align-items: start;
@@ -372,10 +366,11 @@ a {
     row-gap: 2rem;
   }
   .hostingPopular {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 10rem;
-    column-gap: 2rem;
-    grid-row-start: 1;
+    .hostingPopular {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto 10rem;
+      column-gap: 2rem;
+      grid-row-start: 1;
   }
   .hostingPopularTitle {
     grid-column: 1/-1;
@@ -494,7 +489,8 @@ a {
 /******************-----FOOTER----****************/
 
 .footer {
-  padding:1rem
+  background-color: #F2F2F2;
+  width: 100%;
 }
 .footerColumnwrapper {
   display: flex;
@@ -503,9 +499,6 @@ a {
   margin: auto;
   padding: 0 2rem;
   box-sizing: border-box;
-  background-color:hsl(0, 5%, 88%);
-  border: 0.2px solid whitesmoke;
-  border-radius: 0.2rem;
 }
 .footerColumnwrapperColumn {
   width: 30%;
