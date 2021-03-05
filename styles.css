@@ -322,6 +322,7 @@ a {
  
 }
 .hostingPopularTitle {
+  margin-top: 1rem;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -386,6 +387,7 @@ a {
   }
   
   .hostingPopularTitle {
+    margin-top: 1rem;
     grid-column: 1/-1;
   
   }
