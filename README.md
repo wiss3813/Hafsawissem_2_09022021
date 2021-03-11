@@ -17,6 +17,6 @@ Bleu : #0065FC ✓ Bleu clair : #DEEBFF ✓ Gris : #F2F2F2 ✓ Les icons disponi
 
 dans le dossier img se trouve toutes les images utilisés pour le projet,
 
-lien du site Reservia ------->  https://wiss3813.github.io/Hafsawissem_2_09022021/
+lien du site Reservia ------->  https://wiss3813.github.io/P2_Hw_Reservia_09-02-2021/
 
 ![Desktop-1](https://user-images.githubusercontent.com/76759031/104258010-00724280-547f-11eb-9738-b9adc57e7bfb.jpg)
