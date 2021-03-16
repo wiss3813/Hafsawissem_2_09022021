@@ -93,6 +93,7 @@ a {
   }
 }
 .main {
+  min-width: 320px;
   max-width: 1440px;
   margin: auto;
   padding: 0 2rem;
@@ -243,10 +244,14 @@ a {
     margin-right: 1rem;
   }
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 490px) {
   .searchFormSubmitinputText {
     display: block;
   }
+  .searchFormSubmitinputIcon {
+    display: none !important;
+  }
+}
   .searchFormSubmitinputIcon {
   }
 }
@@ -383,9 +388,7 @@ a {
 
     .hostingPopular {
     background-color: #F2F2F2;
-    padding: 1rem;
-    margin: 1rem;
-    grid-column: 1/0;
+    grid-column: 1/1;
 }
   }
   
@@ -549,4 +552,3 @@ a {
     margin-bottom: 0;
   }
 }
-
